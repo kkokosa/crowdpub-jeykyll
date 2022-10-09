@@ -657,6 +657,11 @@ footer.main .copy span img {
   letter-spacing: -1px;
 }
 
+.newsletter-cta .form .ml-form-successContent{
+  color: #fff;
+  text-align: center;
+}
+
 @media (max-width: 1290px) {
   .hero .hero--desc .single--desc.single--desc h3:before {
     display: none;
