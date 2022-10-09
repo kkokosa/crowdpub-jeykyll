@@ -1,23 +1,23 @@
-- url: /
+- url: {{site.baseurl}}
   label: Start
   button: false
 
-- url: /#about
+- url: {{site.baseurl}}#about
   label: About
   button: false
 
-- url: /#roles
+- url: {{site.baseurl}}#roles
   label: Roles
   button: false
 
-- url: /#community
+- url: {{site.baseurl}}#community
   label: Community
   button: false
 
-- url: /#roles
+- url: {{site.baseurl}}#roles
   label: Roles
   button: false
 
-- url: /#join
+- url: {{site.baseurl}}#join
   label: Join the waitlist
   button: true
