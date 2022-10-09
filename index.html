@@ -1,0 +1,126 @@
+---
+layout: default
+---
+
+<section class="hero">
+      <div class="container">
+        <div class="row">
+          <h1 data-aos="fade-up" data-aos-duration="2000">{{site.data.hero.h1}}</h1>
+          <p  data-aos="fade-up" data-aos-duration="2000">{{site.data.hero.description}}</p>
+        </div>
+        <div class="row">
+          <div class="hero--desc">
+            <div data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="500" class="single--desc text-left">
+              <h5>{{site.data.hero.leftColumn.header}}</h5>
+              <div class="single--point red">
+                <h3>{{site.data.hero.leftColumn.firstPoint.title}}</h3>
+                <p>{{site.data.hero.leftColumn.firstPoint.description}}</p>
+              </div>
+              <div class="single--point red">
+                <h3>{{site.data.hero.leftColumn.secondPoint.title}}</h3>
+                <p>{{site.data.hero.leftColumn.secondPoint.description}}</p>
+              </div>
+            </div>
+            <img data-aos="fade-up" data-aos-duration="2000" src="{{site.data.hero.image}}" alt="{{site.data.hero.h1}}" />
+            <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" class="single--desc text-right">
+              <h5>{{site.data.hero.rightColumn.header}}</h5>
+              <div class="single--point blue">
+                <h3>{{site.data.hero.rightColumn.firstPoint.title}}</h3>
+                <p>{{site.data.hero.rightColumn.firstPoint.description}}</p>
+              </div>
+              <div class="single--point blue">
+                <h3>{{site.data.hero.rightColumn.secondPoint.title}}</h3>
+                <p>{{site.data.hero.rightColumn.secondPoint.description}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="join" class="newsletter-cta">
+      <div class="container">
+        <div class="row">
+          <div class="desc">
+            <h3>{{site.data.waitlist.h3}}</h3>
+            <p>{{site.data.waitlist.description}}</p>
+          </div>
+          <div class="form">
+            {% include mailerlite.html %}
+          </div>
+        </div>
+      </div>
+    </section>
+    {% for section in site.data.about %}
+      <section 
+        {% if forloop.first == true %}
+          id="about"
+        {% endif %}
+        class="about-section{% if section.textPosition == 'right' %} text-right{% else %} text-left{% endif %}{% if section.backgroundColor == 'white' %} white{% endif %}">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="img">
+              <img src="{{section.image}}" alt="{{section.h3}}" />
+            </div>
+            <div class="desc">
+              <h3>{{section.h3}}</h3>
+              {{section.description}}
+              {% if section.url %}
+               <a href="{{section.url}}" class="cta" target="_blank">{{section.callToAction}}</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endfor %}
+    <section id="roles" class="roles">
+      <div class="container">
+        <div class="row">
+          <h3 data-aos="fade-up" data-aos-duration="2000">{{site.data.roles.h3}}</h3>
+          <h2 data-aos="fade-up" data-aos-duration="2000">{{site.data.roles.h2}}</h2>
+        </div>
+        <div class="row">
+          {% for role in site.data.roles.roleBoxes %}
+              <div class="single-role" data-aos="fade-up" data-aos-duration="2000">
+                <img src="{{role.image}}" alt="{{role.title}}" />
+                <h4>{{role.title}}</h4>
+                <p>{{role.description}}</p>
+                {% if role.url %}
+                <a href="{{role.url}}" class="more hvr-underline-from-left">
+                  {{role.cta}}
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+                {% endif %}
+              </div>
+              {% endfor %}
+        </div>
+      </div>
+    </section>
+    <section id="community" class="community">
+      <div class="container">
+        <div class="row">
+          <h3 data-aos="fade-up" data-aos-duration="2000">{{site.data.community.h3}}</h3>
+          <h2 data-aos="fade-up" data-aos-duration="2000">{{site.data.community.h2}}</h2>
+          <p data-aos="fade-up" data-aos-duration="2000">
+            {{site.data.community.description}}
+          </p>
+        </div>
+        <div class="row socials">
+          <div  data-aos="fade-up" data-aos-duration="2000" class="col border-right">
+            {% for link in site.data.community.firstColumn %}
+              <a href="{{link.url}}">
+                {{link.fontAwesome}}
+                <span>{{link.label}}</span>
+              </a>
+            {% endfor %}
+          </div>
+          <div  data-aos="fade-up" data-aos-duration="2000" class="col">
+            {% for link in site.data.community.secondColumn %}
+              <a href="{{link.url}}">
+                {{link.fontAwesome}}
+                <span>{{link.label}}</span>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,33 @@
+description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+copyright: Copyright © 2022 Crowdpub
+columns:
+  - header: Footer Navigation
+    links:
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link
+  - header: Footer Navigation
+    links:
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link
+  - header: Footer Navigation
+    links:
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link
+    - url: /#
+      label: Sample Link

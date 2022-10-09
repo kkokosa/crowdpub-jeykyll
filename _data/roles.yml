@@ -1,0 +1,18 @@
+h3: Possible Roles
+h2: What role will you play <br /> in the Crowdpub network?
+roleBoxes:
+  - image: assets/images/icon-1.png
+    title: Author
+    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    url: /#
+    cta: Call to action
+  - image: assets/images/icon-2.png
+    title: Reader
+    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    url: /#
+    cta: Call to action
+  - image: assets/images/icon-3.png
+    title: Founder
+    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    url: /#
+    cta: Call to action

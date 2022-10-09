@@ -1,0 +1,45 @@
+<footer class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a href="/" class="brand">
+            <img src="assets/images/logotype-white.svg" alt="site.title" />
+          </a>
+          <p>
+            {{site.data.footer.description}}
+          </p>
+        </div>
+        {% for column in site.data.footer.columns %}
+            <div class="col">
+              <h4>{{column.header}}</h4>
+              <hr />
+              <ul>
+                {% for link in column.links %}
+                  <li>
+                    <a href="{{link.url}}">{{link.label}}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endfor %}
+      </div>
+      <div class="row copy">
+        <span>{{site.data.footer.copyright}}</span>
+        <span
+          >Implementation
+          <a href="https://esumohq.com" target="_blank"
+            ><img
+              src="assets/images/esumo.svg"
+              alt="Esumo - WordPress Development on Demand" /></a
+        ></span>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="/assets/js/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      disable: 'mobile'
+    });
+  </script>

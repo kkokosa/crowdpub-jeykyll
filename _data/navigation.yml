@@ -1,0 +1,23 @@
+- url: /
+  label: Start
+  button: false
+
+- url: /#about
+  label: About
+  button: false
+
+- url: /#roles
+  label: Roles
+  button: false
+
+- url: /#community
+  label: Community
+  button: false
+
+- url: /#roles
+  label: Roles
+  button: false
+
+- url: /#join
+  label: Join the waitlist
+  button: true

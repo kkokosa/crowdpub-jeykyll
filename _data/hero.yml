@@ -1,0 +1,19 @@
+h1: Redefining how you <span>publish and read books</span>
+description: CrowdPub is a decenralized way of writing a book by dozens of authors and reading them as a live experience in which you can participate, with financial incentive.
+image: assets/images/sample-book-page.png
+leftColumn:
+  header: Book Publishing
+  firstPoint:
+    title: Actual publishing
+    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+  secondPoint:
+    title: Actual publishing
+    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+rightColumn:
+  header: Book 3.0
+  firstPoint:
+    title: Crowd publishing
+    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+  secondPoint:
+    title: Crowd publishing
+    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.

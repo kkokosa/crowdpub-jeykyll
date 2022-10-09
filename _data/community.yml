@@ -1,0 +1,17 @@
+h3: Crowdpub Communities
+h2: Join the Crowdpub Community
+description:  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+firstColumn:
+  - fontAwesome: <i class="fa-brands fa-discord"></i>
+    url: /#
+    label: <strong>Crowdpub</strong> Discord Server
+  - fontAwesome: <i class="fa-brands fa-twitter"></i>
+    url: /#
+    label: <strong>Crowdpub</strong> Twitter Page
+secondColumn:
+  - fontAwesome: <i class="fa-brands fa-facebook-f"></i>
+    url: /#
+    label: <strong>Crowdpub</strong> Facebook Page
+  - fontAwesome: <i class="fa-brands fa-linkedin-in"></i>
+    url: /#
+    label: <strong>Crowdpub</strong> LinkedIn Page
