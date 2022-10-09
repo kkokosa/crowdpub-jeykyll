@@ -6,18 +6,18 @@
   label: About
   button: false
 
-- url: '/#roles'
+- url: '#roles'
   label: Roles
   button: false
 
-- url: '/#community'
+- url: '#community'
   label: Community
   button: false
 
-- url: '/#roles'
+- url: '#roles'
   label: Roles
   button: false
 
-- url: '/#join'
+- url: '#join'
   label: Join the waitlist
   button: true
