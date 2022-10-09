@@ -2,7 +2,7 @@
   label: Start
   button: false
 
-- url: {{site.baseurl}}#about
+- url: {{site.baseurl}}/#about
   label: About
   button: false
 
@@ -10,14 +10,14 @@
   label: Roles
   button: false
 
-- url: {{site.baseurl}}#community
+- url: {{site.baseurl}}/#community
   label: Community
   button: false
 
-- url: {{site.baseurl}}#roles
+- url: {{site.baseurl}}/#roles
   label: Roles
   button: false
 
-- url: {{site.baseurl}}#join
+- url: {{site.baseurl}}/#join
   label: Join the waitlist
   button: true
