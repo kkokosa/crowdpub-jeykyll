@@ -6,7 +6,7 @@
   label: About
   button: false
 
-- url: {{site.baseurl}}#roles
+- url: {{site.baseurl}}/#roles
   label: Roles
   button: false
 
