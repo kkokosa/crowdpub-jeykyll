@@ -1,19 +1,19 @@
 h1: Redefining how you <span>publish and read books</span>
-description: CrowdPub is a decenralized way of writing a book by dozens of authors and reading them as a live experience in which you can participate, with financial incentive.
+description: <b>Crowdpub</b> is a decenralized way of writing books by <b>dozens of authors</b> and reading them as a <b>live experience</b> in which you can participate, with financial incentive.
 image: assets/images/sample-book-page.png
 leftColumn:
-  header: Book Publishing
+  header: Publishing redefined
   firstPoint:
-    title: Actual publishing
-    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    title: Crowd publishing
+    description: Imagine a book written by 50 people. Including <b>you</b>. <br/> Not having time for writing an <b>entire book</b>? White about a <b>single page</b>? Or <b>paragraph</b>?
   secondPoint:
-    title: Actual publishing
-    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    title: Democracy
+    description: Participate in <b>voting</b> for changes suggested by other authors and readers.
 rightColumn:
-  header: Book 3.0
+  header: Reading redefined
   firstPoint:
-    title: Crowd publishing
-    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    title: Book 3.0
+    description: Imagine a book that is constantly <b>becoming</b>. A stream of updates coming from dozens of co-authors and readers with a financtial incentive to make the book better.
   secondPoint:
-    title: Crowd publishing
-    description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    title: Read-to-earn
+    description: People read, <b>suggest fixes</b> and <b>earn a profit</b> from future sales.
