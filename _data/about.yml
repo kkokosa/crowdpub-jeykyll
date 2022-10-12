@@ -1,57 +1,42 @@
-- h3: Contrary to popular belief lorem ipsum is not simply random text.
+- h3: Collaborative book writing
   textPosition: left #left or right
   backgroundColor: white #white or yellow
-  image: assets/images/temp-image.png
+  image: assets/images/textcollab.png
   description: <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text.
-            </p>
-            <p>
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the first true
-              generator on the Internet.
+              Thanks to the provided collaboration platform and community, multiple authors may work altogether on a single book. With the help of blockchain technology that tracks every single change from all authors, we can calculate and distribute the final revenue for each and every one of them in a trustless environment. Moreover, all changes are voted based on the on-chain reputation system to avoid fraud and manipulations from any bad potential participants.
             </p>
   callToAction: Call to action
-  url: /#
-- h3: Contrary to popular belief lorem ipsum is not simply random text.
+  url:
+- h3: The best of traditional and self-publishing
   textPosition: right #left or right
-  backgroundColor: yellow #white or yellow
+  backgroundColor: white #white or yellow
   image: assets/images/temp-image.png
-  description: <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text.
-            </p> 
-            <p>
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the first true
-              generator on the Internet.
-            </p>
+  description: Crowd publishing takes what’s the best from both current models of publishing
+               <ul>
+                <li>traditional publishing - giving support during the process of book writing, providing the whole framework of making a book from the very first idea till the book publication, having editors, translators and marketing platform. Moreover, the fact of using crowd publishing may be a marketing driver by itself.</li>
+                <li>self-publishing - giving much better royalties and control over your book while not overwhelming you with the amount of lonely work.</li>
+               </ul>
   callToAction: Call to action
-  url: /#
-- h3: Contrary to popular belief lorem ipsum is not simply random text.
+  url:
+- h3: Problems solved for authors
   textPosition: left #left or right
   backgroundColor: white #white or yellow
   image: assets/images/temp-image.png
-  description: <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text.
-            </p>
-            <p>
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the first true
-              generator on the Internet.
-            </p>
-  callToAction: Call to action
-  url: /#
+  description: <ul>
+                 <li><b>huge time-effort</b> - Working together with dozens of authors, where every chapter is a product of multiple contributions and suggestions makes it much more doable. Simply put, it is much easier to find a time for writing 20 pages of content, than 200 pages of content!</li>
+                 <li><b>small financial revenue</b> - No more 10% royalties. Crowd publishing connects high royalties with the support of the community and collaborative work on the book</li>
+                 <li><b>niche topics</b> - if you’ll find enough co-authors you can work together on whatever you believe will be read</li>
+               </ul>
+  callToAction: Join a waitlist now
+  url: /#join
+- h3: Problems solved for readers
+  textPosition: right #left or right
+  backgroundColor: white #white or yellow
+  image: assets/images/temp-image.png
+  description: <ul>
+                 <li><b>outdated books</b> - in crowd publishing there is a financial incentive to constantly update already published books. Both from multiple co-authors and from readers themselve</li>
+                 <li><b>no resell</b> - thanks to Crowdpub you can resell an e-book after reading it. And with a crowd publishing platform it gives you a way to earn from fixes and suggestions</li>
+                 <li><b>bad editing, typos and errors</b> - crowd publishing backed by an on-chain platform allows a structured, automated, voted and accountable feedback loop</li>
+               </ul>
+  callToAction: Join waitlist now
+  url: /#join  
